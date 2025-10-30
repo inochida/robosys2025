@@ -1,4 +1,6 @@
-#!/bin/bash
+#!/bin/bash -xv
+# SPDX-FileCopyrightText: 2025 Sota Ino
+# SPDX-License-Identifier: BSD-3-Clause
 
 ng () {
        echo ${1}行目が違う
@@ -6,8 +8,9 @@ ng () {
 }
 
 res=0
-a=猪野
-[ "$a" = 井田 ] || ng "$LINENO"
-[ "$a" = 猪野 ] || ng "$LINENO"
 
+out=$(seq 5 | ./plus)
+[ "${out}" = 15 ] || ng "$LINENO"
+
+[ "${res}" = 0 ] && echo OK
 exit $res
