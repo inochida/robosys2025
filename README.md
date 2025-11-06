@@ -1,7 +1,7 @@
 # robosys2025
 ロボットシステム学/課題1
 
-# plusコマンド
+## plusコマンド
 ![test](https://github.com/inochida/robosys2025/actions/workflows/test.yml/badge.svg)
 
 ## 必要なソフトウェア
