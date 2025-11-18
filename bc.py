@@ -4,6 +4,7 @@
 
 import sys
 
+
 ans = 0
 for line in sys.stdin:
     try:
@@ -12,3 +13,4 @@ for line in sys.stdin:
         ans += float(line)
 
 print(ans)
+

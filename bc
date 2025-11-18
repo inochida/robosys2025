@@ -1,0 +1,17 @@
+#!/usr/bin/python3
+#SPDX-FileCopyrightText: 2025 Sota Ino
+#SPDX-License-Identifier: BSD-3-Clause
+
+import sys
+
+def decimal_to_binary(n):
+    return bin(int(n))
+
+for line in sys.stdin:
+    try:
+        decimal_input = int(line)
+    except:
+        decimal_input = float(line)
+
+print(decimal_to_binary(decimal_input))
+
