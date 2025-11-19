@@ -17,11 +17,11 @@ out=$(echo 5.5 | ./sinsu)
 
 out=$(echo あ | ./sinsu)
 [ "$?" = 1 ]     || ng "$LINENO"
-[ "${out}" = ""] || ng "$LINENO"
+[ "${out}" = "" ] || ng "$LINENO"
 
 out=$(echo | ./sinsu)
 [ "$?" = 1 ]      || ng "$LINENO"
-[ "${out}" = ""] || ng "$LINENO"
+[ "${out}" = "" ] || ng "$LINENO"
 
 [ "${res}" = 0 ] && echo OK
 exit $res
