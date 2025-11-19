@@ -11,4 +11,4 @@ jobs:
     - name: first test
       run: bash -xv ./test.bash
     - name: second test
-      run: bash -xv /. sinsu_test.bash
+      run: bash -xv ./sinsu_test.bash
