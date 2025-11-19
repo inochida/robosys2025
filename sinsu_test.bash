@@ -13,7 +13,7 @@ out=$(echo 5 | ./sinsu)
 [ "${out}" = 0b101 ] || ng "$LINENO"
 
 out=$(echo 5.5 | ./sinsu)
-[ "${out}" = ob101 ] || ng "$LINENO"
+[ "${out}" = 0b101 ] || ng "$LINENO"
 
 out=$(echo あ | ./sinsu)
 [ "$?" = 1 ]     || ng "$LINENO"
