@@ -7,8 +7,9 @@
 
 ## クローン方法
 ターミナルで以下のコマンドを入力し、クローンしてください
-
+```
 git clone https://github.com/inochida/robosys2025.git
+```
 
 ## sinsuコマンドの使い方
 
