@@ -2,7 +2,7 @@
 ロボットシステム学/課題1
 
 ## sinsuコマンド
-![test](https://github.com/inochida/robosys2025/actions/workflows/test.yml/badge.svg)
+![test](https://github.com/inochida/robosys2025/actions/workflows/sinsu_test.yml/badge.svg)
 
 ## 使い方
 
