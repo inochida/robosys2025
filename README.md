@@ -29,12 +29,17 @@ $ echo 5.99999 | ./sinsu
 
 ## 入力された数字が負の場合
 ```
-echo -5 | ./sinsu
+$ echo -5 | ./sinsu
 -0b101
 ```
 負の場合のみ符号がつきます
 
 ## 入力された文字が数字でない場合
+```
+$ echo あ | ./sinsu
+ValueError: could not convert string to float: 'あ\n'
+```
+数字以外の時は進数変換できないためエラーが表示されます
 
 ## 必要なソフトウェア
 - Python
