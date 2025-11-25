@@ -3,8 +3,14 @@
 
 ## sinsuコマンド
 ![test](https://github.com/inochida/robosys2025/actions/workflows/sinsu_test.yml/badge.svg)
+- 10進数の入力を2進数に変換して出力します
+
+## クローン方法
+ターミナルで以下のコマンドを入力し、クローンしてください
+git clone https://github.com/inochida/robosys2025.git
 
 ## sinsuコマンドの使い方
+
 
 ## 必要なソフトウェア
 - Python
