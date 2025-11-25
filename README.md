@@ -4,7 +4,7 @@
 ## sinsuコマンド
 ![test](https://github.com/inochida/robosys2025/actions/workflows/sinsu_test.yml/badge.svg)
 
-## 使い方
+## sinsuコマンドの使い方
 
 ## 必要なソフトウェア
 - Python
