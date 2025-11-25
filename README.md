@@ -43,7 +43,7 @@ ValueError: could not convert string to float: 'あ\n'
 
 ## 必要なソフトウェア
 - Python
-  - テスト済みバージョン: 3.7 ~ 3.12
+  - テスト済みバージョン: 3.7 ~ 3.13
 
 ## テスト環境
 - Ubuntu 22.04.3 LTS
