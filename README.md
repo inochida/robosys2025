@@ -56,4 +56,4 @@ ValueError: could not convert string to float: 'あ\n'
 
 ## 参考文献
 - 以下のサイトの関数を参考にし、進数変換のコードを作成しました.
-  - [https://af-e.net/python-binary-decimal/#rtoc-3]
+  - https://af-e.net/python-binary-decimal/#rtoc-3
