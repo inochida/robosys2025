@@ -22,6 +22,7 @@ out=$(echo あ | ./sinsu)
 [ "$?" = 1 ]     || ng "$LINENO"
 [ "${out}" = "" ] || ng "$LINENO"
 
+
 out=$(echo | ./sinsu)
 [ "$?" = 1 ]      || ng "$LINENO"
 [ "${out}" = "" ] || ng "$LINENO"
