@@ -2,7 +2,7 @@
 ロボットシステム学/課題1
 
 ## sinsuコマンド
-![test](https://github.com/inochida/robosys2025/actions/workflows/sinsu_test.yml/badge.svg)
+[![test](https://github.com/inochida/robosys2025/actions/workflows/sinsu_test.yml/badge.svg)](https://github.com/inochida/robosys2025/actions/workflows/sinsu_test.yml)
 - 10進数の入力を2進数に変換して出力します
 
 ## 実行方法
