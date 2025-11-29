@@ -13,5 +13,5 @@ for line in sys.stdin:
     except:
         decimal_input = float(line)
 
-print(decimal_to_binary(decimal_input))
+print(decimal_to_binary(decimal_input) )
 
