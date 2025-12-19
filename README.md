@@ -20,7 +20,7 @@ $ echo 5 | ./sinsu
 ```
 0bの後の数字が2進数となります
 
-## 入力された数字が少数の場合
+## 入力された数字が小数の場合
 ```
 $ echo 5.99999 | ./sinsu
 0b101
@@ -50,8 +50,6 @@ ValueError: could not convert string to float: 'あ\n'
 
 ## ライセンス
 - このソフトウェアパッケージは，3条項BSDライセンスの下，再頒布および使用が許可されます．
-- このパッケージのコードの一部は下記のスライド(CC-BY-SA 4.0 by Ryuichi Ueda)のものを、本人の許可を得て自身の著者としたものです.
-  - [ryuichiueda/slides_marp/tree/master/robosys2025](https://github.com/ryuichiueda/slides_marp/tree/master/robosys2025)
 - ©2025 Sota Ino
 
 ## 参考文献
