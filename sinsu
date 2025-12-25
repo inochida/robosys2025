@@ -7,11 +7,30 @@ import sys
 def decimal_to_binary(n):
     return bin(int(n))
 
+def get_binary_decomposition(n):
+    n = int(n)
+    if n == 0:
+        return "0"
+
+    binary_str = bin(n)[2:]
+    length = len(binary_str)
+    parts = []
+
+    for i, digit in enumerate(binary_str):
+        if digit == '1':
+            power = length - 1 - i
+            parts.append(str(2 ** power))
+
+    return "+".join(parts)
+
 for line in sys.stdin:
-    try:
-        decimal_input = int(line)
-    except:
-        decimal_input = float(line)
+    line = line.strip()
+    if not line:
+        continue
 
-print(decimal_to_binary(decimal_input))
+    decimal_input = int(float(line))
 
+    binary_res = decimal_to_binary(decimal_input)
+    decomposition = get_binary_decomposition(decimal_input)
+    
+    print(f"{binary_res} ({decomposition})")
