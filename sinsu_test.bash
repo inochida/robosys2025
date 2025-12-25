@@ -10,13 +10,16 @@ ng () {
 res=0
 
 out=$(echo 5 | ./sinsu)
-[ "${out}" = 0b101 ] || ng "$LINENO"
+[ "${out}" = 0b101 (4+1) ] || ng "$LINENO"
+
+out=$(echo 100 | ./sinsu)
+[ "${out}" = 0b1100100 (64+32+4) ] || ng "$LINENO"
 
 out=$(echo 5.5 | ./sinsu)
-[ "${out}" = 0b101 ] || ng "$LINENO"
+[ "${out}" = 0b101 (4+1) ] || ng "$LINENO"
 
 out=$(echo -5 | ./sinsu)
-[ "${out}" = -0b101 ] || ng "$LINENO"
+[ "${out}" = -0b101 (4+1) ] || ng "$LINENO"
 
 out=$(echo あ | ./sinsu)
 [ "$?" = 1 ]     || ng "$LINENO"
