@@ -11,22 +11,21 @@ def get_binary_decomposition(n):
     n = int(n)
     if n == 0:
         return "0"
-
-    binary_str = bin(n)[2:]
+    abs_n = abs(n)
+    binary_str = bin(abs_n)[2:]
     length = len(binary_str)
     parts = []
-
     for i, digit in enumerate(binary_str):
         if digit == '1':
             power = length - 1 - i
             parts.append(str(2 ** power))
-
     return "+".join(parts)
 
 for line in sys.stdin:
     line = line.strip()
+    
     if not line:
-        continue
+        sys.exit(1)
 
     decimal_input = int(float(line))
 
