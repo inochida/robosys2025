@@ -48,6 +48,9 @@ ValueError: could not convert string to float: 'あ\n'
 
 ## テスト環境
 - Ubuntu 22.04.3 LTS
+- GitHub Actions
+  - OS: ubuntu-latest
+  - Python: 3.7 ~ 3.13
 
 ## ライセンス
 - このソフトウェアパッケージは，3条項BSDライセンスの下，再頒布および使用が許可されます。
